@@ -7,5 +7,7 @@ services:
     restart: on-failure
     ports:
       - "80:80"
-      environment:
-                  HD_CONFIG_FILE_URL: ${{CONFIG_FILE_URL}}
+    env_file:
+      - environments/local.env
+    environment:
+                HD_CONFIG_FILE_URL: ${{CONFIG_FILE_URL}}
