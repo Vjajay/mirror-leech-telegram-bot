@@ -10,4 +10,4 @@ services:
     env_file:
       - environments/local.env
     environment:
-                CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
+                CONFIG_FILE_URL: https://gist.githubusercontent.com/Vjajay/7c31bcf40805dae245e0d1ed8d68f78c/raw/config.env
