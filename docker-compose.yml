@@ -10,4 +10,4 @@ services:
     env_file:
       - environments/local.env
     environment:
-                HD_CONFIG_FILE_URL: https://gist.githubusercontent.com/Rajveer0916/6731cf5c353cd96e16768ded365f6358/raw/config.env
+                CONFIG_FILE_URL: https://gist.githubusercontent.com/Rajveer0916/6731cf5c353cd96e16768ded365f6358/raw/config.env
