@@ -8,4 +8,4 @@ services:
     ports:
       - "80:80"
       environment:
-                  HD_CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
+                  HD_CONFIG_FILE_URL: ${{CONFIG_FILE_URL}}
